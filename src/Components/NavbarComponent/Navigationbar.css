@@ -1,0 +1,85 @@
+body {
+    overflow-x: hidden;
+}
+.logo{
+    padding-left:5px ;
+}
+.logoImgNav{
+    width: 80px;
+    height: 40px;
+}
+.navbar-plate {
+    padding-left: 1%;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.logo-component {
+    padding-left: 2%;
+}
+
+.responsive-button {
+    padding-right: 2%;
+}
+
+.Hamburger {
+    width: 100vw;
+    height: 100vh;
+    /* background-color: rgba(255, 228, 196, 0.774); */
+    position: absolute;
+    z-index: 5;
+}
+
+.HamburgerMenu {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    /* position: absolute;
+    z-index: 6; */
+}
+
+.NavPage {
+    padding: 20vh 0 20vh 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font: bold;
+    font-size: 16px;
+    color: #000000;
+    width: 90%;
+    height: 100%;
+}
+
+.closenav {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    font-size: 35px;
+    font-weight: bolder;
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    border: 0;
+    padding-top: 20px;
+
+    i {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .NavPage {
+        font-size: 16px;
+
+    }
+ 
+}
